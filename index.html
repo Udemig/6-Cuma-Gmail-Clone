@@ -45,7 +45,7 @@
     <!-- Alt Kısım -->
     <section>
       <!--  sol navigasyon -->
-      <nav >
+      <nav>
         <div class="create-mail">
           <i class="bi bi-pencil-fill"></i>
           <span>Oluştur</span>
@@ -126,7 +126,26 @@
         <i class="bi bi-plus-lg icon"></i>
       </aside>
     </section>
+
+    <!-- Modal -->
+    <div class="modal-wrapper">
+      <div class="modal-inner">
+        <i id="close-btn" class="bi bi-x-lg"></i>
+        <form id="create-mail-form">
+          <label>Kime</label>
+          <input type="text" />
+
+          <label>Konu</label>
+          <input type="text" />
+
+          <label>İçerik</label>
+          <textarea></textarea>
+          <button id="send-mail-btn">Gönder</button>
+        </form>
+      </div>
+    </div>
+
     <!-- js bağlantısı -->
-    <script src="script.js"></script>
+    <script src="script.js" type="module"></script>
   </body>
 </html>
